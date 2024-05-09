@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+    /*declaration to configure the 
+    browser to also include the value of border and 
+    padding when calculating the width & height of an elements */
+}
+
+#heroroad {
+    background-image: url(images/heroroad.jpg);
+    background-size: 100% 100%;
+    /*width and height*/
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url(images/heromugs.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url(images/heroguitar.jpg);
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+#herojobs {
+    height: 250px;
+    background-image: url(images/herojobs.jpg);
+    background-size: 100% 100%;
+}
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+    background-image: url("images/background.gif");
+}
+
+
+header {
+    background-color: #D2B48C;
+    /*text-align : center;*/
+    height: 150px;
+    background-image: url("images/javajamlogo.jpg");
+    background-repeat: no-repeat;
+    display: block;
+
+}
+
+h1 {
+    /*line-height: 200%;*/
+    /*line spacing. 200% is double the line spacing.*/
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 1.5em;
+    width: 200px;
+    float: left;
+    /* to float the element on the left side of the container*/
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #fef6c2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #cc9933;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    display: block;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px 3px #333333;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    text-transform: uppercase;
+    padding-bottom: 0%;
+    border-bottom: 2px solid #231814;
+    clear: left;
+    /*used to terminate or clear a float */
+}
+
+.floatleft {
+    float: left;
+    padding-bottom: 2em;
+    padding-right: 2em;
+}
+
+main {
+    padding-left: 0%;
+    padding-bottom: 2em;
+    padding-right: 0%;
+    padding-top: 0%;
+    margin-left: 200px;
+    background-color: #fef6c2;
+    display: block;
+}
+
+main h2,
+main h3,
+main h4,
+main p,
+main ul,
+main div,
+main dl {
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+    /*to configure how content should display 
+    if it is to large for the area allocated*/
+}
+
+img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table {
+    width: 90%;
+    margin-left: auto;
+    /*This margin left and right auto  is actually make in the whole table center*/
+    margin-right: auto;
+    background-color: #ffffcc;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 10px;
+    /*not stated specific sides so means, this padding effect to all sides top right bottom &left */
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48C;
+    /* THIS is special pseudo-class to have different color for all odd row.
+    It applied to the "nth" element of the special type.
+    Values can be number, odd or even. */
+}
+
+form {
+    padding: 2em;
+    /*not stated specific padding means, its apply to all sides T,R,B,L*/
+}
+
+input,
+textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+#mySubmit {
+    margin-left: 9.5em;
+}
+
+
+
+
+
+
+
+
+/*
+v1 = horizontal offset (R-L)
+v2 = vertical offset (B-T)
+v3 = blur radius
+v4 = spread distance
+v5 = color of the shadow
+*/
+
+/* Pseudo-classes for navigation hyperlinks
+:link - default hyperlink not yet clicked
+:visited - default hyperlink has been clicked
+:focus - triggered when keyboard has focus
+:hover - triggered when mouse pointer
+:active - triggered when link actually clicked */
